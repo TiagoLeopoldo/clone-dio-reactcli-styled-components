@@ -24,6 +24,8 @@
 
 Este projeto foi desenvolvido como parte de um bootcamp da **Digital Innovation One (DIO)**, simulando uma plataforma de estudos com autenticação, feed de posts e ranking de usuários.
 
+[**(Deploy - Vercel)**](https://clone-dio-reactcli-styled-component.vercel.app/)
+
 ### **Arquitetura Aplicada**
 
 - **Vite** com **React 19**
@@ -124,6 +126,8 @@ Este projeto representa um passo importante na minha evolução como desenvolved
 # DIO Clone Project - Study Platform (React.JS Vite - Styled-components)
 
 This project was developed as part of a **Digital Innovation One (DIO)** bootcamp, simulating a study platform with authentication, post feed, and user ranking.
+
+[**(Deploy - Vercel)**](https://clone-dio-reactcli-styled-component.vercel.app/)
 
 ### **Applied Architecture**
 
