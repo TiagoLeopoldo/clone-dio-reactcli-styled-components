@@ -1,5 +1,5 @@
-import { Header } from "../../components/Header/index.jsx";
-import { Input } from "../../components/Input/index.jsx";
+import { Header } from "../../components/Header/index.js";
+import { Input } from "../../components/Input/index.js";
 import { Button } from "../../components/Button/index.jsx";
 import { MdEmail, MdLock, MdPerson } from "react-icons/md";
 import { useForm } from "react-hook-form";
