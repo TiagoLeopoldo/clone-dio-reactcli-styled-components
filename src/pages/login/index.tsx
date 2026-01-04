@@ -18,6 +18,7 @@ import {
   TitleLogin,
   Wrapper,
 } from "./styles";
+import { IFormData } from "./types";
 
 const schema = yup
   .object({
@@ -38,10 +39,10 @@ const Login = () => {
   const {
     control,
     handleSubmit,
-    formState: { errors },
-  } = useForm({ resolver: yupResolver(schema), mode: "onChange" });
+    formState: { errors }
+  } = useForm<IFormData>({ resolver: yupResolver(schema), mode: "onChange" });
 
-  const onSubmit = async (formData) => {
+  const onSubmit = async (formData: IFormData) => {
     try {
       const { data } = await api.get(
         `users?email=${formData.email}&senha=${formData.password}`
@@ -56,7 +57,7 @@ const Login = () => {
     }
   };
 
-  const handleClickForget = (event) => {
+  const handleClickForget = (event: React.MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault();
     alert("Este recurso está em desenvolvimento!");
   };
